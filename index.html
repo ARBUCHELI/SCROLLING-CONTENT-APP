@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Scrolling Content App</title>
+		<!--css script-->
+		<style>
+			#cElement{
+				background-color: #c9c9c9; /*Color grey of the box with the text*/
+				width: 400px; /*Dimensions of the box with the text*/
+				font-size: 1em; /*Size of the text*/
+				position: relative;
+				border: 1px solid black; /*border of the box*/
+				overflow: hidden; /*The overflow is clipped and the rest of the content is hidden*/
+			}
+
+			#cElement #sElement{ /*Configuration of location of the containers in the page*/
+				position: absolute;
+				left:0px;
+				top:0px;
+				width:100%;
+			}
+		</style>
+	</head>
+
+<body>
+	<!--html script-->
+	<div> <!--Container with three elements.  box for input, box with text, and button-->
+		<input type="number" value="10"> <!--Input box used to select the speed of the scrolling-->
+		<div class="output"></div> <!--This is the message located just above the grey box with the text-->
+		<div id="cElement">
+			<div id="sElement"></div> <!--This is the container of the text-->
+		</div>
+
+		<button>Click</button> <!--Button-->
+	</div>
+	<script src="script.js"></script> <!--Link to JavaScript-->
+<!--Javascript section-->
+
+</body>
+</html>
+
+
