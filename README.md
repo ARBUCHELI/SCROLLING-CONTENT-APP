@@ -23,4 +23,4 @@ The user can stop the scrolling process using the "Click" button and can start t
 1. Download and unzip the repository folder.
 2. Open the index.html file with Google Chrome.
 
-Author: Andrés R. Bucheli.
+# Author: Andrés R. Bucheli.
